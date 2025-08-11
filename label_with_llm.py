@@ -137,7 +137,7 @@ def main():
         chunk_start = time.time()
         for _, row in batch.iterrows():
             obj = infer_one(row["_text"], model=args.model)
-            # infer_one()에서 obj 만든 직후 ~ results.append() 전에 추가
+            
             text_low = row["_text"].lower()
             
             # stenosis 또는 narrowing이 전혀 없으면 전부 False
