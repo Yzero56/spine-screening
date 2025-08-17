@@ -19,6 +19,7 @@
 - 아래 명령어를 CMD 또는 터미널에 복사·붙여넣기 하시면 됩니다.
 
 **pip install numpy Pillow tensorflow tensorflow-datasets scikit-learn matplotlib**
+
 *numpy : 수치 연산, 배열 처리
 
 *Pillow : 이미지 처리 (PIL.Image 대체)
