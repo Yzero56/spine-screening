@@ -14,3 +14,19 @@
      
 3. stenosis_supplement.ipynb를 다운로드하여 실행합니다.
    * stenosis_supplement.ipynb = 데이터 증강 & 사전 학습 백본(ResNet50) 사용  
+
+[모델 학습 시 설치해야할 모듈 목록] 
+- 아래 명령어를 CMD 또는 터미널에 복사·붙여넣기 하시면 됩니다.
+
+pip install numpy Pillow tensorflow tensorflow-datasets scikit-learn matplotlib
+*numpy : 수치 연산, 배열 처리
+
+*Pillow : 이미지 처리 (PIL.Image 대체)
+
+*tensorflow : 딥러닝 프레임워크
+
+*tensorflow-datasets : 공개 데이터셋 로드
+
+*scikit-learn : 데이터 전처리, 평가 지표 (confusion_matrix, class_weight)
+
+*matplotlib : 데이터 및 결과 시각화
